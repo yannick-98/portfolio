@@ -6,7 +6,7 @@ const About = () => {
     const stars = (num) => {
         return Array.from({ length: num }, (_, index) => (
             <img
-                src="/src/img/star-icon.png"
+                src="../../public/star-icon.png"
                 alt="star" key={index}
                 className='w-[12px] '
             />
@@ -33,23 +33,23 @@ const About = () => {
                     <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm pb-3 underline'>Frontend</h1>
                         <section className='flex  items-center gap-1'>
-                            <img src="/src/img/html5-logo.png" alt="" className='w-5' />
+                            <img src="../../public/html5-logo.png" alt="" className='w-5' />
                             <p>HTML5 </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="/src/img/css3-logo.png" alt="" className='w-5' />
+                            <img src="../../public/css3-logo.png" alt="" className='w-5' />
                             <p>CSS3 </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="/src/img/tailwindcss.svg" alt="" className='w-5' />
+                            <img src="../../public/tailwindcss.svg" alt="" className='w-5' />
                             <p>TailwindCss </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="/src/img/js-logo.png" alt="" className='w-5' />
+                            <img src="../../public/js-logo.png" alt="" className='w-5' />
                             <p>Javascript </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="/src/img/react-logo.png" alt="" className='w-5' />
+                            <img src="../../public/react-logo.png" alt="" className='w-5' />
                             <p>React </p>
                         </section>
                     </section>
@@ -57,19 +57,19 @@ const About = () => {
                     <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm pb-3 underline'>Backend</h1>
                         <section className='flex  items-center gap-1'>
-                            <img src="/src/img/node_icon.png" alt="" className='w-5' />
+                            <img src="../../public/node_icon.png" alt="" className='w-5' />
                             <p>Node.js </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="/src/img/python_icon.png" alt="" className='w-5' />
+                            <img src="../../public/python_icon.png" alt="" className='w-5' />
                             <p>Python </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="/src/img/html5-logo.png" alt="" className='w-5' />
+                            <img src="../../public/html5-logo.png" alt="" className='w-5' />
                             <p>PyNode </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="/src/img/mongodb_icon.png" alt="" className='w-5' />
+                            <img src="../../public/mongodb_icon.png" alt="" className='w-5' />
                             <p>MongoDB </p>
                         </section>
                     </section>
@@ -77,11 +77,11 @@ const About = () => {
                     <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm pb-3 underline'>Design</h1>
                         <section className='flex  items-center gap-1'>
-                            <img src="/src/img/figma.png" alt="" className='w-5' />
+                            <img src="../../public/figma.png" alt="" className='w-5' />
                             <p>Figma </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="/src/img/python_icon.png" alt="" className='w-5' />
+                            <img src="../../public/python_icon.png" alt="" className='w-5' />
                             <p>Adobe </p>
                         </section>
                     </section>
@@ -89,15 +89,15 @@ const About = () => {
                     <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm pb-3 underline'>Languages</h1>
                         <section className='flex items-center gap-1'>
-                            <img src="/src/img/spa-icon.png" alt="" className='w-5' />
+                            <img src="../../public/spa-icon.png" alt="" className='w-5' />
                             <p>Spanish </p>
                         </section>
                         <section className='flex items-center gap-1'>
-                            <img src="/src/img/fr-icon.png" alt="" className='w-5' />
+                            <img src="../../public/fr-icon.png" alt="" className='w-5' />
                             <p>French </p>
                         </section>
                         <section className='flex items-center gap-1'>
-                            <img src="/src/img/en-icon.png" alt="" className='w-5' />
+                            <img src="../../public/en-icon.png" alt="" className='w-5' />
                             <p>English </p>
                         </section>
                     </section>

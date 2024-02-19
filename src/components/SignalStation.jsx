@@ -10,7 +10,7 @@ const SignalStation = () => {
                 </NavLink>
                 <p className='text-2xl pb-4'>Signal Station</p>
                 <div className='md:flex md:gap-3'>
-                    <img src="/src/img/Desktop1.png" alt="" className='rounded w-full max-w-[600px] mx-auto ' />
+                    <img src="../../public/Desktop1.png" alt="" className='rounded w-full max-w-[600px] mx-auto ' />
                     <div className='flex flex-col justify-between'>
                         <div className='space-y-3'>
                             <p className='text-sm text-slate-300'>Frontend: </p>
