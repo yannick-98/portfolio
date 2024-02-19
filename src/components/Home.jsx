@@ -14,8 +14,8 @@ const Home = () => {
                 <p>I'm a self-taugth fullstack developer</p>
             </div>
             <div className='flex gap-3 text-sm'>
-                <NavLink to='/About' className='border rounded p-1'>About me</NavLink>
-                <NavLink to='/Projects' className='border rounded p-1'>My projects</NavLink>
+                <NavLink to='/About' className='border rounded p-1 bg-black'>About me</NavLink>
+                <NavLink to='/Projects' className='border rounded p-1 bg-black'>My projects</NavLink>
             </div>
             <div className='flex flex-col gap-2 justify-center items-center'>
                 <div className='flex items-center gap-1'>
