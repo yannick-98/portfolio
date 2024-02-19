@@ -3,8 +3,6 @@ import { NavLink } from 'react-router-dom';
 import Desk from '../assets/Desktop1.png';
 import { useState } from 'react';
 
-
-
 const Projects = () => {
     const [project, setProject] = useState('')
 
@@ -50,12 +48,10 @@ const Projects = () => {
 
             <div className='flex flex-wrap gap-5 justify-center'>
                 <ProjectCard img={Desk} title="Signal Station" description="A market analysis software that generates personalized signals" />
-                <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
-                <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
-                <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
-                <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
-                <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
-                <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
+                <ProjectCard img={Desk} title="Kaly" description="A market analysis software that generates personalized signals" />
+                <ProjectCard img={Desk} title="Roomfinder" description="A market analysis software that generates personalized signals" />
+                <ProjectCard img={Desk} title="Emprenet" description="A market analysis software that generates personalized signals" />
+                <ProjectCard img={Desk} title="OrdersNow" description="A market analysis software that generates personalized signals" />
                 <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
             </div>
         </div>
