@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import desk from '../assets/Desktop1.png';
+import Desk from '../assets/Desktop1.png';
 import { useState } from 'react';
 
 
@@ -49,14 +49,14 @@ const Projects = () => {
             <p className=''>My projects:</p>
 
             <div className='flex flex-wrap gap-5 justify-center'>
-                <ProjectCard img={desk} title="Signal Station" description="A market analysis software that generates personalized signals" />
-                <ProjectCard img={desk} title="Blog" description="A market analysis software that generates personalized signals" />
-                <ProjectCard img={desk} title="Blog" description="A market analysis software that generates personalized signals" />
-                <ProjectCard img={desk} title="Blog" description="A market analysis software that generates personalized signals" />
-                <ProjectCard img={desk} title="Blog" description="A market analysis software that generates personalized signals" />
-                <ProjectCard img={desk} title="Blog" description="A market analysis software that generates personalized signals" />
-                <ProjectCard img={desk} title="Blog" description="A market analysis software that generates personalized signals" />
-                <ProjectCard img={desk} title="Blog" description="A market analysis software that generates personalized signals" />
+                <ProjectCard img={Desk} title="Signal Station" description="A market analysis software that generates personalized signals" />
+                <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
+                <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
+                <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
+                <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
+                <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
+                <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
+                <ProjectCard img={Desk} title="Blog" description="A market analysis software that generates personalized signals" />
             </div>
         </div>
     )

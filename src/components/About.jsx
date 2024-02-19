@@ -1,12 +1,24 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-
+import HtmlIcon from '../assets/html5-logo.png'
+import CssIcon from '../assets/css3-logo.png'
+import TailwindIcon from '../assets/tailwindcss.svg'
+import JsIcon from '../assets/js-logo.png'
+import ReactIcon from '../assets/react-logo.png'
+import NodeIcon from '../assets/node_icon.png'
+import PythonIcon from '../assets/python_icon.png'
+import PyNodeIcon from '../assets/html5-logo.png'
+import MongodbIcon from '../assets/mongodb_icon.png'
+import FigmaIcon from '../assets/figma.png'
+import SpaIcon from '../assets/spa-icon.png'
+import FrIcon from '../assets/fr-icon.png'
+import EnIcon from '../assets/en-icon.png'
 
 const About = () => {
     const stars = (num) => {
         return Array.from({ length: num }, (_, index) => (
             <img
-                src="../../public/star-icon.png"
+                src="../assets/star-icon.png"
                 alt="star" key={index}
                 className='w-[12px] '
             />
@@ -33,23 +45,23 @@ const About = () => {
                     <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm pb-3 underline'>Frontend</h1>
                         <section className='flex  items-center gap-1'>
-                            <img src="../../public/html5-logo.png" alt="" className='w-5' />
+                            <img src={HtmlIcon} alt="" className='w-5' />
                             <p>HTML5 </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="../../public/css3-logo.png" alt="" className='w-5' />
+                            <img src={CssIcon} alt="" className='w-5' />
                             <p>CSS3 </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="../../public/tailwindcss.svg" alt="" className='w-5' />
+                            <img src={TailwindIcon} alt="" className='w-5' />
                             <p>TailwindCss </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="../../public/js-logo.png" alt="" className='w-5' />
+                            <img src={JsIcon} alt="" className='w-5' />
                             <p>Javascript </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="../../public/react-logo.png" alt="" className='w-5' />
+                            <img src={ReactIcon} alt="" className='w-5' />
                             <p>React </p>
                         </section>
                     </section>
@@ -57,19 +69,19 @@ const About = () => {
                     <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm pb-3 underline'>Backend</h1>
                         <section className='flex  items-center gap-1'>
-                            <img src="../../public/node_icon.png" alt="" className='w-5' />
+                            <img src={NodeIcon} alt="" className='w-5' />
                             <p>Node.js </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="../../public/python_icon.png" alt="" className='w-5' />
+                            <img src={PythonIcon} alt="" className='w-5' />
                             <p>Python </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="../../public/html5-logo.png" alt="" className='w-5' />
+                            <img src={PyNodeIcon} alt="" className='w-5' />
                             <p>PyNode </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="../../public/mongodb_icon.png" alt="" className='w-5' />
+                            <img src={MongodbIcon} alt="" className='w-5' />
                             <p>MongoDB </p>
                         </section>
                     </section>
@@ -77,11 +89,11 @@ const About = () => {
                     <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm pb-3 underline'>Design</h1>
                         <section className='flex  items-center gap-1'>
-                            <img src="../../public/figma.png" alt="" className='w-5' />
+                            <img src={FigmaIcon} alt="" className='w-5' />
                             <p>Figma </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src="../../public/python_icon.png" alt="" className='w-5' />
+                            <img src={PyNodeIcon} alt="" className='w-5' />
                             <p>Adobe </p>
                         </section>
                     </section>
@@ -89,15 +101,15 @@ const About = () => {
                     <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm pb-3 underline'>Languages</h1>
                         <section className='flex items-center gap-1'>
-                            <img src="../../public/spa-icon.png" alt="" className='w-5' />
+                            <img src={SpaIcon} alt="" className='w-5' />
                             <p>Spanish </p>
                         </section>
                         <section className='flex items-center gap-1'>
-                            <img src="../../public/fr-icon.png" alt="" className='w-5' />
+                            <img src={FrIcon} alt="" className='w-5' />
                             <p>French </p>
                         </section>
                         <section className='flex items-center gap-1'>
-                            <img src="../../public/en-icon.png" alt="" className='w-5' />
+                            <img src={EnIcon} alt="" className='w-5' />
                             <p>English </p>
                         </section>
                     </section>
