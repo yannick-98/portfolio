@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import desk from '../../public/Desktop1.png';
+import desk from '../assets/Desktop1.png';
 import { useState } from 'react';
 
 
