@@ -5,3 +5,12 @@
     background-position: center;
 }
 
+::-webkit-scrollbar {
+    width: 2px;
+    background-color: #000;
+    color: #000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+  }

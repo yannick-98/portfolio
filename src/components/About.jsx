@@ -29,7 +29,7 @@ const About = () => {
         <div className='pt-12 px-3 space-y-20 '>
             <section className='space-y-6'>
                 <p className=''>About me:</p>
-                <div className='space-y-4 p-4 bg-black bg-opacity-45 rounded-lg text-lg'>
+                <div className='space-y-4 p-4 bg-black bg-opacity-45 rounded-lg text-xl'>
                     <p>I learned web development self-taught, and now I continue my education at the Next Business School,
                         pursuing a master's degree in Big Data and Business Intelligence. </p>
                     <p> I love challenges, and one of them was working in the Netherlands and Belgium, where I learned
@@ -41,7 +41,7 @@ const About = () => {
 
             <section className='space-y-8'>
                 <p className=''>My skills:</p>
-                <div className='flex flex-wrap justify-start text-lg p-4 bg-black bg-opacity-45 rounded-lg'>
+                <div className='flex flex-wrap justify-start text-xl p-4 bg-black bg-opacity-45 rounded-lg'>
                     <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm pb-3 underline'>Frontend</h1>
                         <section className='flex  items-center gap-1'>
