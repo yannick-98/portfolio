@@ -68,6 +68,10 @@ const About = () => {
                             <img src={ReactIcon} alt="" className='w-5' />
                             <p>React </p>
                         </section>
+                        <section className='flex  items-center gap-1'>
+                            <img src={FigmaIcon} alt="" className='w-5' />
+                            <p>Figma </p>
+                        </section>
                     </section>
 
                     <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
@@ -91,7 +95,7 @@ const About = () => {
                     </section>
 
                     <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
-                        <h1 className='text-center text-sm pb-3 underline'>Others</h1>
+                        <h1 className='text-center text-sm pb-3 underline'>Hosting</h1>
                         <section className='flex  items-center gap-1'>
                             <img src={FigmaIcon} alt="" className='w-5' />
                             <p>Git </p>
@@ -102,7 +106,15 @@ const About = () => {
                         </section>
                         <section className='flex  items-center gap-1'>
                             <img src={FigmaIcon} alt="" className='w-5' />
-                            <p>Figma </p>
+                            <p>Heroku </p>
+                        </section>
+                        <section className='flex  items-center gap-1'>
+                            <img src={FigmaIcon} alt="" className='w-5' />
+                            <p>Netlify </p>
+                        </section>
+                        <section className='flex  items-center gap-1'>
+                            <img src={FigmaIcon} alt="" className='w-5' />
+                            <p>Render </p>
                         </section>
                     </section>
 
@@ -110,7 +122,7 @@ const About = () => {
                         <h1 className='text-center text-sm pb-3 underline'>Languages</h1>
                         <section className='flex items-center gap-1'>
                             <img src={SpaIcon} alt="" className='w-5' />
-                            <p>Spanish </p>
+                            <p>Spanish</p>
                         </section>
                         <section className='flex items-center gap-1'>
                             <img src={FrIcon} alt="" className='w-5' />
@@ -120,11 +132,15 @@ const About = () => {
                             <img src={EnIcon} alt="" className='w-5' />
                             <p>English </p>
                         </section>
+                        <section className='flex items-center gap-1'>
+                            <img src={SpaIcon} alt="" className='w-5' />
+                            <p>Catalan </p>
+                        </section>
                     </section>
                 </div>
-            </section>
+            </section >
 
-        </div>
+        </div >
     )
 }
 

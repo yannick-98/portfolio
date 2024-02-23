@@ -14,21 +14,21 @@ const Projects = () => {
             setMiDiv(false);
         };
 
-
         return (
             <div id={title}
-                className="w-80 h-44 border-2 p-1 border-zinc-500 rounded "
+                className="w-80 h-52 border-2 p-1 border-zinc-500 rounded "
                 onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
 
                 <div className="flex items-center justify-center text-center w-full h-full bg-black bg-opacity-10 ">
                     {miDiv ? (
                         <div className='flex flex-col items-center'>
-                            <p className="text-white text-sm mb-3">{description}</p>
-                            <NavLink to={`/Projects/${title}`} className='text-xs underline '>Know more</NavLink>
+                            <p className="text-white text-lg mb-3 p-1">{description}</p>
+                            <NavLink to={`/Projects/${title}`} className='text-sm rounded-lg bg-orange-700 text-gray-200
+                            bg-opacity-50 p-1 mx-auto '>Know more</NavLink>
 
                         </div>
                     ) : <>
-                        <p className="text-white text-lg font-bold">{title}</p>
+                        <p className="text-white text-3xl font-bold anta-regular">{title}</p>
                     </>}
                 </div>
             </div>

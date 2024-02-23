@@ -6,6 +6,9 @@ import Projects from './Projects'
 import SignalStation from './SignalStation'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import Kaly from './Kaly'
+import Roomfinder from './Roomfinder'
+import Emprenet from './Emprenet'
+import OrdersNow from './OrdersNow'
 
 const Router = () => {
     return (
@@ -20,6 +23,9 @@ const Router = () => {
                     <Route path="/Projects/Signal Station" element={<SignalStation />} />
                     <Route path="/Projects/Kaly" element={<Kaly />} />
                     <Route path="/Projects/Signal Station" element={<SignalStation />} />
+                    <Route path="/Projects/Roomfinder" element={<Roomfinder />} />
+                    <Route path="/Projects/Emprenet" element={<Emprenet />} />
+                    <Route path="/Projects/OrdersNow" element={<OrdersNow />} />
 
                 </Routes>
             </div>
