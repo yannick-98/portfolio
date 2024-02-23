@@ -57,6 +57,10 @@ const About = () => {
                             <p>TailwindCss </p>
                         </section>
                         <section className='flex  items-center gap-1'>
+                            <img src={TailwindIcon} alt="" className='w-5' />
+                            <p>PostCss </p>
+                        </section>
+                        <section className='flex  items-center gap-1'>
                             <img src={JsIcon} alt="" className='w-5' />
                             <p>Javascript </p>
                         </section>
