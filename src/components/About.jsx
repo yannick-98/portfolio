@@ -85,6 +85,10 @@ const About = () => {
                             <p>Node.js </p>
                         </section>
                         <section className='flex  items-center gap-1'>
+                            <img src={NodeIcon} alt="" className='w-5' />
+                            <p>Express.js </p>
+                        </section>
+                        <section className='flex  items-center gap-1'>
                             <img src={PythonIcon} alt="" className='w-5' />
                             <p>Python </p>
                         </section>
