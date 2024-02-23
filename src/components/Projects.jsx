@@ -16,7 +16,7 @@ const Projects = () => {
 
         return (
             <div id={title}
-                className="w-80 h-52 border-2 p-1 border-zinc-500 rounded "
+                className="w-80 h-52 border-2 p-1 bg-black bg-opacity-20 border-zinc-500 rounded "
                 onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
 
                 <div className="flex items-center justify-center text-center w-full h-full bg-black bg-opacity-10 ">
