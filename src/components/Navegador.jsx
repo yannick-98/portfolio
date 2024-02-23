@@ -30,7 +30,15 @@ const Navegador = () => {
             </div>
 
             {menu &&
-                <div className='bg-black w-full h-full fixed top-16 right-0 flex items-center justify-center pb-20'>
+                <div className='bg-black w-screen h-screen fixed top-0 right-0 flex flex-col items-center justify-between py-6 px-2'>
+                    <div className='w-full text-start flex items-center justify-between px-2'>
+                        <NavLink to="/Home" onClick={() => setMenu(!menu)}>
+                            <i>Yannick Castaño</i>
+                        </NavLink>                        <button onClick={() => setMenu(!menu)} className='flex sm:hidden'>
+                            <i className='fa fa-bars'></i>
+                        </button>
+                    </div>
+
                     <div className='flex items-stretch'>
                         <div className='flex flex-col mx-4 gap-8 h-36 text-3xl'>
                             <NavLink onClick={() => setMenu(!menu)} to="/Home" className={({ isActive }) => (isActive ? "text-orange-600" : "")}>
@@ -45,7 +53,7 @@ const Navegador = () => {
                         </div>
                     </div>
 
-                    <div className='fixed bottom-2'>
+                    <div className=''>
                         <button onClick={() => setMenu(!menu)}>
                             <i className='fa fa-times'></i>
                         </button>
