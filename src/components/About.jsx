@@ -7,12 +7,16 @@ import JsIcon from '../assets/js-logo.png'
 import ReactIcon from '../assets/react-logo.png'
 import NodeIcon from '../assets/node_icon.png'
 import PythonIcon from '../assets/python_icon.png'
-import PyNodeIcon from '../assets/html5-logo.png'
+import GitIcon from '../assets/git_icon.png'
 import MongodbIcon from '../assets/mongodb_icon.png'
 import FigmaIcon from '../assets/figma.png'
 import SpaIcon from '../assets/spa-icon.png'
 import FrIcon from '../assets/fr-icon.png'
 import EnIcon from '../assets/en-icon.png'
+import Github from '../assets/github_icon.png'
+import HerokuIcon from '../assets/heroku_icon.ico'
+import NetlifyIcon from '../assets/netlify_icon.png'
+
 
 const About = () => {
     const stars = (num) => {
@@ -56,10 +60,10 @@ const About = () => {
                             <img src={TailwindIcon} alt="" className='w-5' />
                             <p>TailwindCss </p>
                         </section>
-                        <section className='flex  items-center gap-1'>
+                        {/* <section className='flex  items-center gap-1'>
                             <img src={TailwindIcon} alt="" className='w-5' />
                             <p>PostCss </p>
-                        </section>
+                        </section> */}
                         <section className='flex  items-center gap-1'>
                             <img src={JsIcon} alt="" className='w-5' />
                             <p>Javascript </p>
@@ -93,7 +97,7 @@ const About = () => {
                             <p>Python </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src={MongodbIcon} alt="" className='w-5' />
+                            <img src={MongodbIcon} alt="" className='w-5 bg-green-700 rounded-sm' />
                             <p>MongoDB </p>
                         </section>
                     </section>
@@ -101,19 +105,19 @@ const About = () => {
                     <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm pb-3 underline'>Hosting</h1>
                         <section className='flex  items-center gap-1'>
-                            <img src={FigmaIcon} alt="" className='w-5' />
+                            <img src={GitIcon} alt="" className='w-5' />
                             <p>Git </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src={PyNodeIcon} alt="" className='w-5' />
+                            <img src={Github} alt="" className='w-5 bg-white rounded-sm' />
                             <p>GitHub </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src={FigmaIcon} alt="" className='w-5' />
+                            <img src={HerokuIcon} alt="" className='w-5' />
                             <p>Heroku </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src={FigmaIcon} alt="" className='w-5' />
+                            <img src={NetlifyIcon} alt="" className='w-5 rounded-sm' />
                             <p>Netlify </p>
                         </section>
                         <section className='flex  items-center gap-1'>

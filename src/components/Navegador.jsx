@@ -8,7 +8,7 @@ const Navegador = () => {
         <section id='nav1' className='flex items-center justify-between w-full h-[8vh] mx-auto gap-3 p-4 fixed top-0 
         bg-gradient-to-b from-black via-black to-transparent text-white text-xl '>
             <NavLink to="/Home">
-                <i>Yannick Castaño</i>
+                <p className='anta-regular'>Yannick Castaño</p>
             </NavLink>
 
             <div>
@@ -33,7 +33,7 @@ const Navegador = () => {
                 <div className='bg-black w-screen h-screen fixed top-0 right-0 flex flex-col items-center justify-between py-6 px-2'>
                     <div className='w-full text-start flex items-center justify-between px-2'>
                         <NavLink to="/Home" onClick={() => setMenu(!menu)}>
-                            <i>Yannick Castaño</i>
+                            <p className='anta-regular'>Yannick Castaño</p>
                         </NavLink>                        <button onClick={() => setMenu(!menu)} className='flex sm:hidden'>
                             <i className='fa fa-bars'></i>
                         </button>
