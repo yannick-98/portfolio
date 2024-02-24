@@ -32,21 +32,7 @@ const Home = () => {
                 <NavLink to='/Projects' className='border rounded p-2 bg-black'>My projects</NavLink>
             </div>
             <div className='flex flex-col gap-2 justify-center items-center text-center'>
-                <div className='flex items-center gap-1'>
-                    <img src={WhatsappIcon} alt="" className='w-4 h-4' />
-                    <CopyToClipboard text="+34 613 030 850" onCopy={handleCopyWa}>
-                        <p className='hover:cursor-pointer'>+34 613 030 850</p>
-                    </CopyToClipboard>
-                    {copiedWa && <p className='text-xs px-4 text-green-500'>Copied!</p>}
-                </div>
-                <div className='flex items-center gap-1'>
-                    <img src={EmailIcon} alt="" className='w-4 h-4' />
-                    <CopyToClipboard text="Yannick9862@gmail.com" onCopy={handleCopyE}>
-                        <p className='hover:cursor-pointer'>Yannick9862@gmail.com</p>
-                    </CopyToClipboard>
-                    {copiedE && <p className='text-xs px-4 text-green-500'>Copied!</p>}
-                </div>
-                <div className='w-full flex items-center justify-evenly'>
+                <div className='w-full flex items-center justify-center gap-5'>
                     <div className='flex items-center gap-1'>
                         <img src={Linkedin} alt="" className='w-4 h-4 bg-white ' />
                         <NavLink to={'https://www.linkedin.com/in/yannick-casta%C3%B1o-david-2bb9052b6/'} target='_blank'>LinkedIn</NavLink>
@@ -55,6 +41,22 @@ const Home = () => {
                         <img src={Github} alt="" className='w-4 h-4 bg-white ' />
                         <NavLink to={'https://www.linkedin.com/in/yannick-casta%C3%B1o-david-2bb9052b6/'} target='_blank'>GitHub</NavLink>
                     </div>
+                </div>
+
+                <div className='flex items-center gap-1'>
+                    <img src={WhatsappIcon} alt="" className='w-4 h-4' />
+                    <CopyToClipboard text="+34 613 030 850" onCopy={handleCopyWa}>
+                        <p className='hover:cursor-pointer'>+34 613 030 850</p>
+                    </CopyToClipboard>
+                    {copiedWa && <p className='text-xs px-4 text-green-500'>Copied!</p>}
+                </div>
+
+                <div className='flex items-center gap-1'>
+                    <img src={EmailIcon} alt="" className='w-4 h-4' />
+                    <CopyToClipboard text="Yannick9862@gmail.com" onCopy={handleCopyE}>
+                        <p className='hover:cursor-pointer'>Yannick9862@gmail.com</p>
+                    </CopyToClipboard>
+                    {copiedE && <p className='text-xs px-4 text-green-500'>Copied!</p>}
                 </div>
             </div>
         </section>

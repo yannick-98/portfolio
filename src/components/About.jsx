@@ -46,8 +46,9 @@ const About = () => {
             <section className='space-y-8'>
                 <p className=''>My skills:</p>
                 <div className='flex flex-wrap justify-start text-xl p-4 bg-black bg-opacity-45 rounded-lg'>
-                    <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
-                        <h1 className='text-center text-sm pb-3 underline'>Frontend</h1>
+                    <section className='px-4 space-y-1 w-1/2 sm:w-1/4 pb-10'>
+                        <h1 className='text-center text-sm text-orange-600'>Frontend</h1>
+                        <hr className=' pb-2' />
                         <section className='flex  items-center gap-1'>
                             <img src={HtmlIcon} alt="" className='w-5' />
                             <p>HTML5 </p>
@@ -78,8 +79,9 @@ const About = () => {
                         </section>
                     </section>
 
-                    <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
-                        <h1 className='text-center text-sm pb-3 underline'>Backend</h1>
+                    <section className='px-4 space-y-1 w-1/2 sm:w-1/4 pb-10'>
+                        <h1 className='text-center text-sm text-orange-600'>Backend</h1>
+                        <hr className=' pb-2' />
                         <section className='flex  items-center gap-1'>
                             <img src={JsIcon} alt="" className='w-5' />
                             <p>Javascript </p>
@@ -97,13 +99,14 @@ const About = () => {
                             <p>Python </p>
                         </section>
                         <section className='flex  items-center gap-1'>
-                            <img src={MongodbIcon} alt="" className='w-5 bg-green-700 rounded-sm' />
+                            <img src={MongodbIcon} alt="" className='w-5 bg-green-900 rounded-sm' />
                             <p>MongoDB </p>
                         </section>
                     </section>
 
-                    <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
-                        <h1 className='text-center text-sm pb-3 underline'>Hosting</h1>
+                    <section className='px-4 space-y-1 w-1/2 sm:w-1/4 pb-10'>
+                        <h1 className='text-center text-sm text-orange-600'>Hosting</h1>
+                        <hr className=' pb-2' />
                         <section className='flex  items-center gap-1'>
                             <img src={GitIcon} alt="" className='w-5' />
                             <p>Git </p>
@@ -126,8 +129,9 @@ const About = () => {
                         </section>
                     </section>
 
-                    <section className='space-y-1 w-1/2 sm:w-1/4 pb-10'>
-                        <h1 className='text-center text-sm pb-3 underline'>Languages</h1>
+                    <section className='px-4 space-y-1 w-1/2 sm:w-1/4 pb-10'>
+                        <h1 className='text-center text-sm text-orange-700'>Languages</h1>
+                        <hr className=' pb-2' />
                         <section className='flex items-center gap-1'>
                             <img src={SpaIcon} alt="" className='w-5' />
                             <p>Spanish</p>
