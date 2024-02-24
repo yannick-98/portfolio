@@ -48,7 +48,7 @@ const About = () => {
                 <div className='flex flex-wrap justify-start text-xl p-4 bg-black bg-opacity-45 rounded-lg'>
                     <section className='px-4 space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm text-orange-600'>Frontend</h1>
-                        <hr className=' pb-2' />
+                        <hr className=' pb-2 border-orange-700' />
                         <section className='flex  items-center gap-1'>
                             <img src={HtmlIcon} alt="" className='w-5' />
                             <p>HTML5 </p>
@@ -81,7 +81,7 @@ const About = () => {
 
                     <section className='px-4 space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm text-orange-600'>Backend</h1>
-                        <hr className=' pb-2' />
+                        <hr className=' pb-2 border-orange-700' />
                         <section className='flex  items-center gap-1'>
                             <img src={JsIcon} alt="" className='w-5' />
                             <p>Javascript </p>
@@ -106,7 +106,7 @@ const About = () => {
 
                     <section className='px-4 space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm text-orange-600'>Hosting</h1>
-                        <hr className=' pb-2' />
+                        <hr className=' pb-2 border-orange-700' />
                         <section className='flex  items-center gap-1'>
                             <img src={GitIcon} alt="" className='w-5' />
                             <p>Git </p>
@@ -131,7 +131,7 @@ const About = () => {
 
                     <section className='px-4 space-y-1 w-1/2 sm:w-1/4 pb-10'>
                         <h1 className='text-center text-sm text-orange-700'>Languages</h1>
-                        <hr className=' pb-2' />
+                        <hr className=' pb-2 border-orange-700' />
                         <section className='flex items-center gap-1'>
                             <img src={SpaIcon} alt="" className='w-5' />
                             <p>Spanish</p>
