@@ -23,12 +23,12 @@ const Kaly = () => {
                             <p className='text-sm text-slate-300'>Hosting: </p>
                             <p>Heroku, Netlify</p>
                         </div>
-                        <NavLink to={'https://kalyapp.netlify.app/'} target="_blank" className='mt-12 bg-orange-700 
-                            border-2 border-black rounded-lg mx-auto p-2 text-sm text-center '
-                        >Go to website
-                        </NavLink>
                     </div>
                 </div>
+                <NavLink to={'https://kalyapp.netlify.app/'} target="_blank" className='mt-12 bg-orange-700 
+                            border-2 border-black rounded-lg mx-auto p-2 text-sm text-center '
+                >Go to website
+                </NavLink>
             </section>
             <section className='space-y-4 text-xl'>
                 <p>This website is a personal organizer that allows you to plan events, tasks, and daily notes.</p>

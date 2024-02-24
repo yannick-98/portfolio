@@ -22,9 +22,9 @@ const Emprenet = () => {
                             <p className='text-sm text-slate-300'>Hosting: </p>
                             <p>Heroku, Netlify</p>
                         </div>
-                        <NavLink to={'https://emprenet.netlify.app/'} target="_blank" className='mt-12 bg-orange-700 border-2 border-black rounded-lg mx-auto p-2 text-sm text-center '>Go to website</NavLink>
                     </div>
                 </div>
+                <NavLink to={'https://emprenet.netlify.app/'} target="_blank" className='mt-12 bg-orange-700 border-2 border-black rounded-lg mx-auto p-2 text-sm text-center '>Go to website</NavLink>
             </section>
             <section className='space-y-4 text-xl'>
                 <p>The goal of this project is to create a website that allows users to save time
