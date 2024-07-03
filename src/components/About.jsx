@@ -1,174 +1,63 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import HtmlIcon from '../assets/html5-logo.png'
-import CssIcon from '../assets/css3-logo.png'
-import TailwindIcon from '../assets/tailwindcss.svg'
-import JsIcon from '../assets/js-logo.png'
-import ReactIcon from '../assets/react-logo.png'
-import NodeIcon from '../assets/node_icon.png'
-import PythonIcon from '../assets/python_icon.png'
-import GitIcon from '../assets/git_icon.png'
-import MongodbIcon from '../assets/mongodb_icon.png'
-import FigmaIcon from '../assets/figma.png'
-import SpaIcon from '../assets/spa-icon.png'
-import FrIcon from '../assets/fr-icon.png'
-import EnIcon from '../assets/en-icon.png'
-import Github from '../assets/github_icon.png'
-import HerokuIcon from '../assets/heroku_icon.ico'
-import NetlifyIcon from '../assets/netlify_icon.png'
-
 
 const About = () => {
-    const stars = (num) => {
-        return Array.from({ length: num }, (_, index) => (
-            <img
-                src="../assets/star-icon.png"
-                alt="star" key={index}
-                className='w-[12px] '
-            />
-        ));
-    };
-
     return (
-        <div className='pt-12 px-3 space-y-20 '>
-            <section className='space-y-6'>
-                <p className=''>About me:</p>
-                <div className='space-y-4 p-4 bg-black bg-opacity-45 rounded-lg text-xl'>
-                    <p>I learned web development self-taught, and now I continue my education at the Next Business School,
-                        pursuing an online master's degree in Big Data and Business Intelligence. </p>
-                    <p> I love challenges, and one of them was working in the Netherlands and Belgium, where I learned
-                        to navigate in English, in addition to discovering my passion for exploring other cultures.</p>
-                    <p>I enjoy road trips, boxing, and algorithmic trading, which has led me to the exciting project I
-                        dedicate my free time to: <NavLink to='/projects/signal station' className='text-orange-600'>Signal Station</NavLink></p>
+        <div className='w-full bg-[rgb(20,48,67)]'>
+            <a id='About' className='block relative top-[-45px] '></a>
+
+            <section className='bg-gray-200 text-[rgb(40,50,78)] w-full p-8 flex flex-col items-center text-center'>
+                <div className='w-full max-w-[1200px] '>
+                    <h2 className='text-2xl font-bold'>About me</h2>
+                    <br />
+                    <p className='text-xl'>Passionate about technology, challenges, and learning new skills. I taught myself web development, which provided me with a foundation in programming and motivated me to become interested in data science and focus my career in this field.</p>
                 </div>
             </section>
 
-            <section className='space-y-8'>
-                <p className=''>My skills:</p>
-                <div className='flex flex-wrap justify-start text-xl p-4 bg-black bg-opacity-45 rounded-lg'>
-                    <section className='px-4 space-y-1 w-1/2 sm:w-1/4 pb-10'>
-                        <h3 className='text-center text-sm text-orange-600'>Frontend</h3>
-                        <hr className=' pb-2 border-orange-700' />
-                        <section className='flex  items-center gap-1'>
-                            <img src={HtmlIcon} alt="" className='w-5' />
-                            <p>HTML5 </p>
-                        </section>
-                        <section className='flex  items-center gap-1'>
-                            <img src={CssIcon} alt="" className='w-5' />
-                            <p>CSS3 </p>
-                        </section>
-                        <section className='flex  items-center gap-1'>
-                            <img src={TailwindIcon} alt="" className='w-5' />
-                            <p>TailwindCss </p>
-                        </section>
-                        {/* <section className='flex  items-center gap-1'>
-                            <img src={TailwindIcon} alt="" className='w-5' />
-                            <p>PostCss </p>
-                        </section> */}
-                        <section className='flex  items-center gap-1'>
-                            <img src={JsIcon} alt="" className='w-5' />
-                            <p>Javascript </p>
-                        </section>
-                        <section className='flex  items-center gap-1'>
-                            <img src={ReactIcon} alt="" className='w-5' />
-                            <p>React </p>
-                        </section>
-                        <section className='flex  items-center gap-1'>
-                            <img src={FigmaIcon} alt="" className='w-5' />
-                            <p>Figma </p>
-                        </section>
-                    </section>
-
-                    <section className='px-4 space-y-1 w-1/2 sm:w-1/4 pb-10'>
-                        <h3 className='text-center text-sm text-orange-600'>Backend</h3>
-                        <hr className=' pb-2 border-orange-700' />
-                        <section className='flex  items-center gap-1'>
-                            <img src={JsIcon} alt="" className='w-5' />
-                            <p>Javascript </p>
-                        </section>
-                        <section className='flex  items-center gap-1'>
-                            <img src={NodeIcon} alt="" className='w-5' />
-                            <p>Node.js </p>
-                        </section>
-                        <section className='flex  items-center gap-1'>
-                            <img src={NodeIcon} alt="" className='w-5' />
-                            <p>Express.js </p>
-                        </section>
-                        <section className='flex  items-center gap-1'>
-                            <img src={PythonIcon} alt="" className='w-5' />
-                            <p>Python </p>
-                        </section>
-                        <section className='flex  items-center gap-1'>
-                            <img src={MongodbIcon} alt="" className='w-5 bg-green-900 rounded-sm' />
-                            <p>MongoDB </p>
-                        </section>
-                    </section>
-
-                    <section className='px-4 space-y-1 w-1/2 sm:w-1/4 pb-10'>
-                        <h3 className='text-center text-sm text-orange-600'>Hosting</h3>
-                        <hr className=' pb-2 border-orange-700' />
-                        <section className='flex  items-center gap-1'>
-                            <img src={GitIcon} alt="" className='w-5' />
-                            <p>Git </p>
-                        </section>
-                        <section className='flex  items-center gap-1'>
-                            <img src={Github} alt="" className='w-5 bg-white rounded-sm' />
-                            <p>GitHub </p>
-                        </section>
-                        <section className='flex  items-center gap-1'>
-                            <img src={HerokuIcon} alt="" className='w-5' />
-                            <p>Heroku </p>
-                        </section>
-                        <section className='flex  items-center gap-1'>
-                            <img src={NetlifyIcon} alt="" className='w-5 rounded-sm' />
-                            <p>Netlify </p>
-                        </section>
-                        <section className='flex  items-center gap-1'>
-                            <img src={FigmaIcon} alt="" className='w-5' />
-                            <p>Render </p>
-                        </section>
-                    </section>
-
-                    <section className='px-4 space-y-1 w-1/2 sm:w-1/4 pb-10'>
-                        <h3 className='text-center text-sm text-orange-700'>Languages</h3>
-                        <hr className=' pb-2 border-orange-700' />
-                        <section className='flex items-center gap-1'>
-                            <img src={SpaIcon} alt="" className='w-5' />
-                            <p>Spanish</p>
-                        </section>
-                        <section className='flex items-center gap-1'>
-                            <img src={FrIcon} alt="" className='w-5' />
-                            <p>French </p>
-                        </section>
-                        <section className='flex items-center gap-1'>
-                            <img src={EnIcon} alt="" className='w-5' />
-                            <p>English </p>
-                        </section>
-                        <section className='flex items-center gap-1'>
-                            <img src={SpaIcon} alt="" className='w-5' />
-                            <p>Catalan </p>
-                        </section>
-                    </section>
-                </div>
-            </section >
-
-            <section>
-                <p className=''>My education:</p>
-                <div className='space-y-4 p-4 bg-black bg-opacity-45 rounded-lg text-xl'>
+            <section className=' flex flex-col justify-center items-center w-full mx-auto space-y-12 p-8'>
+                <h2 className='text-2xl font-bold text-center'>My skills</h2>
+                <div className='flex flex-wrap justify-between gap-3 w-full max-w-[1200px]'>
+                    <div className='mb-12 w-full sm:w-auto'>
+                        <h3 className=" font-semibold mb-4">Programming languages</h3>
+                        <ul className='text-lg'>
+                            <li>· Python</li>
+                            <li>· R</li>
+                            <li>· JavaScript</li>
+                            <li>· SQL</li>
+                            <li>· DAX</li>
+                        </ul>
+                    </div>
+                    <div className='mb-12 w-full sm:w-auto'>
+                        <h3 className=" font-semibold mb-4">Business Intelligence</h3>
+                        <ul className='text-lg'>
+                            <li>· Tableau</li>
+                            <li>· Microsoft PowerBI</li>
+                            <li>· Google Analytics</li>
+                            <li>· Machine Learning</li>
+                            <li>· Internet of Things</li>
+                        </ul>
+                    </div>
+                    <div className='mb-12 w-full sm:w-auto'>
+                        <h3 className=" font-semibold mb-4">Web development</h3>
+                        <ul className='text-lg'>
+                            <li>· HTML5 & CSS3</li>
+                            <li>· React.js</li>
+                            <li>· Node.js</li>
+                            <li>· TailwindCSS</li>
+                            <li>· Git / GitHub</li>
+                        </ul>
+                    </div>
+                    <div className='mb-12 '>
+                        <h3 className=' font-semibold mb-4'>Languages</h3>
+                        <ul className='text-lg'>
+                            <li className='flex items-center justify-between gap-2'>· Spanish <img src='/src/assets/5stars.png' className='h-3'></img></li>
+                            <li className='flex items-center justify-between gap-2'>· English <img src='/src/assets/3stars.png' className='h-3'></img></li>
+                            <li className='flex items-center justify-between gap-2'>· French <img src='/src/assets/3stars.png' className='h-3'></img></li>
+                            <li className='flex items-center justify-between gap-2'>· Catalan <img src='/src/assets/5stars.png' className='h-3'></img></li>
+                        </ul>
+                    </div>
                 </div>
             </section>
-
-            <section>
-                <p className=''>My blog:</p>
-                <div className='space-y-4 p-4 bg-black bg-opacity-45 rounded-lg text-xl'>
-                </div>
-            </section>
-
-            <section>
-                <p>My rabbit:</p>
-            </section>
-
-        </div >
+        </div>
     )
 }
 

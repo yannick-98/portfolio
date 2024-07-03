@@ -1,0 +1,11 @@
+.app {
+    height: 100vh; /* Hace que el contenedor ocupe toda la altura de la ventana */
+    background-image: url('./assets/web-3706563_1920.jpg'); /* ajusta la ruta según tu estructura */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.bg-color-blue {
+    background-color: rgba(01, 01, 06, 0.5); 
+}
