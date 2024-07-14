@@ -1,16 +1,18 @@
 import React from 'react'
+import '../app.css'
 import TypingEffect from '../efectos/typing'
 import backgroundImage from 'C:/Users/USUARIO/Desktop/Programacion/web/projects/YAPP/src/assets/background.jpg'
 
 const Home = () => {
     return (
-        <div id='Home' className='w-full h-screen flex justify-center items-center' style={{ backgroundImage: `url(${backgroundImage})` }}>
-            <div className='flex flex-col justify-center items-center text-center gap-20 w-full max-w-[900px]'>
+        <div id='Home' className=' w-full h-screen flex justify-center items-center overflow-hidden bg-cover bg-center'
+            style={{ backgroundImage: `url(${backgroundImage})` }}>
+            <div className='flex flex-col justify-center items-center text-center gap-20 w-full max-w-[900px] z-10'>
 
                 <div className='mx-3'>
                     <h1 className='text-6xl font-bold'>Yannick Castaño</h1>
                     <br />
-                    <TypingEffect text='Daata Scientist | Web Developer | Business Intelligence' speed={100} />
+                    <TypingEffect text='Daata Scientist | Web Developer' speed={100} />
                 </div>
 
                 <div className='flex flex-wrap justify-around w-full gap-4 '>
@@ -31,13 +33,16 @@ const Home = () => {
                     </section>
                 </div>
 
-                <a href='#About' className='flex justify-center items-center w-24 h-12 bg-[rgb(40,50,78)] text-white 
+                <a href='#Work' className='flex justify-center items-center w-24 h-12 bg-[rgb(01,50,78)] text-white 
                 rounded-full shadow-lg hover:bg-white hover:text-[rgb(40,50,78)]'>
-                    <p className='text-gray-400'>About me</p>
+                    <p className='text-gray-400'>Portfolio</p>
                 </a>
 
             </div>
+            <div className='app absolute w-full h-full overflow-hidden bg-cover bg-center'
+                style={{ backgroundImage: `url(${backgroundImage})` }}></div>
         </div>
+
     )
 }
 

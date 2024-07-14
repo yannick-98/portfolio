@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className='w-full bg-[rgb(20,48,67)]'>
+        <div className='w-full bg-[rgb(01,50,78)]'>
             <a id='About' className='block relative top-[-45px] '></a>
 
             <section className='bg-gray-200 text-[rgb(40,50,78)] w-full p-8 flex flex-col items-center text-center'>
@@ -32,17 +32,17 @@ const About = () => {
                             <li>· Tableau</li>
                             <li>· Microsoft PowerBI</li>
                             <li>· Google Analytics</li>
+                            <li>· Web scraping</li>
                             <li>· Machine Learning</li>
-                            <li>· Internet of Things</li>
                         </ul>
                     </div>
                     <div className='mb-12 w-full sm:w-auto'>
                         <h3 className=" font-semibold mb-4">Web development</h3>
                         <ul className='text-lg'>
-                            <li>· HTML5 & CSS3</li>
+                            <li>· Django</li>
                             <li>· React.js</li>
-                            <li>· Node.js</li>
                             <li>· TailwindCSS</li>
+                            <li>· HTML5 & CSS3</li>
                             <li>· Git / GitHub</li>
                         </ul>
                     </div>
