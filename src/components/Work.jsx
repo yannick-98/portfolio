@@ -78,7 +78,7 @@ const tarjetas = [
         imagen: HousePriceImg,
         imagenes: [],
         plataforma: 'Web',
-        enlace: 'http://localhost:5173/house-price-prediction'
+        enlace: '/house-price-prediction'
     },
     {
         titulo: 'S&P-500 Companies Analysis',
