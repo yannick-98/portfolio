@@ -1,5 +1,6 @@
 import React from 'react'
 import '../app.css'
+import linkedinIcon from '../assets/icons8-linkedin-50.png'
 
 const Nav = () => {
     return (
@@ -12,8 +13,8 @@ const Nav = () => {
                     <a href='#Contact' className='p-3 md:p-4'>Contact</a>
                 </div>
                 <div className='w-full flex justify-end px-2'>
-                    <a href="https:www.linkedin.com/in/yannick-castaño-david" target="_blank">
-                        <img src="/src/assets/icons8-linkedin-50.png" alt="" className='w-5 md:w-6' />
+                    <a href="https://www.linkedin.com/in/yannick-castaño-david" target="_blank">
+                        <img src={linkedinIcon} alt="" className='w-5 md:w-6' />
                     </a>
                 </div>
             </nav>

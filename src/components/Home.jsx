@@ -8,7 +8,7 @@ import webIcon from '../assets/icons8-web-64.png'
 
 const Home = () => {
     return (
-        <div id='Home' className=' w-full h-screen flex justify-center items-center overflow-hidden bg-cover bg-center'
+        <div id='Home' className=' w-full h-screen min-h-[600px] flex justify-center items-center overflow-hidden bg-cover bg-center'
             style={{ backgroundImage: `url(${backgroundImage})` }}>
             <div className='flex flex-col justify-center items-center text-center gap-20 w-full max-w-[900px] z-10'>
 
