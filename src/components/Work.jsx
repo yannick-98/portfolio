@@ -1,4 +1,16 @@
 import React, { useState } from 'react'
+import HousePriceImg from '../assets/housePrice.JPG'
+import PowerBi1 from '../assets/powerbi1.JPG'
+import PowerBi1_2 from '../assets/powerbi1(2).JPG'
+import PowerBi1_3 from '../assets/powerbi1(3).JPG'
+import PowerBi2 from '../assets/powerbi2.JPG'
+import PowerBi2_2 from '../assets/powerbi2(2).JPG'
+import PowerBi2_3 from '../assets/powerbi2(3).JPG'
+import PowerBi2_4 from '../assets/powerbi2(4).JPG'
+import PowerBi2_5 from '../assets/powerbi2(5).JPG'
+import PowerBi3 from '../assets/powerbi3.JPG'
+import Tableau1 from '../assets/tableau1.JPG'
+
 
 const Work = () => {
     return (
@@ -63,35 +75,35 @@ const Tarjeta = ({ titulo, imagen, imagenes, enlace, plataforma }) => {
 const tarjetas = [
     {
         titulo: 'House Price Prediction',
-        imagen: '../assets/housePrice.JPG',
+        imagen: HousePriceImg,
         imagenes: [],
         plataforma: 'Web',
         enlace: 'http://localhost:5173/house-price-prediction'
     },
     {
         titulo: 'S&P-500 Companies Analysis',
-        imagen: '/src/assets/powerbi2.JPG',
-        imagenes: ['/src/assets/powerbi2.JPG', '/src/assets/powerbi2(2).JPG', '/src/assets/powerbi2(3).JPG', '/src/assets/powerbi2(4).JPG', '/src/assets/powerbi2(5).JPG'],
+        imagen: PowerBi2,
+        imagenes: [PowerBi2, PowerBi2_2, PowerBi2_3, PowerBi2_4, PowerBi2_5],
         plataforma: 'Power BI',
         enlace: 'https://app.powerbi.com/links/qpRc4PN_46?ctid=77821fee-81c2-49bb-95a7-97d5841419ef&pbi_source=linkShare'
     },
     {
         titulo: 'Sales & Profit Dashboard',
-        imagen: ['/src/assets/powerbi1.JPG'],
-        imagenes: ['/src/assets/powerbi1.JPG', '/src/assets/powerbi1(2).JPG', '/src/assets/powerbi1(3).JPG'],
+        imagen: PowerBi1,
+        imagenes: [PowerBi1, PowerBi1_2, PowerBi1_3],
         plataforma: 'Power BI',
         enlace: 'https://app.powerbi.com/links/xP_CCvv_vz?ctid=77821fee-81c2-49bb-95a7-97d5841419ef&pbi_source=linkShare'
     },
     {
         titulo: 'Resumen ejecutivo - Rentabilidad',
-        imagen: '/src/assets/tableau1.JPG',
+        imagen: Tableau1,
         imagenes: [],
         plataforma: 'Tableau',
         enlace: 'https://public.tableau.com/views/Resumenejecutivo-Rentabilidad_17187491298320/Resumenejecutivo-Rentabilidad?:language=es-ES&:sid=&:display_count=n&:origin=viz_share_link'
     },
     {
         titulo: 'Sales by Gross Income Dashboard',
-        imagen: ['/src/assets/powerbi3.JPG'],
+        imagen: PowerBi3,
         imagenes: [],
         plataforma: 'Power BI',
         enlace: 'https://app.powerbi.com/links/2mlF2_xtR3?ctid=77821fee-81c2-49bb-95a7-97d5841419ef&pbi_source=linkShare'
