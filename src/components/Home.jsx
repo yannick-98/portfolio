@@ -1,7 +1,7 @@
 import React from 'react'
 import '../app.css'
 import TypingEffect from '../efectos/typing'
-import backgroundImage from '../src/assets/background.jpg'
+import backgroundImage from '../assets/background.jpg'
 
 const Home = () => {
     return (
