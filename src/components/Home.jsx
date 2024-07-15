@@ -2,6 +2,9 @@ import React from 'react'
 import '../app.css'
 import TypingEffect from '../efectos/typing'
 import backgroundImage from '../assets/background.jpg'
+import dataIcon from '../assets/icons8-analysis-50.png'
+import machineIcon from '../assets/icons8-machine-learning-64.png'
+import webIcon from '../assets/icons8-web-64.png'
 
 const Home = () => {
     return (
@@ -18,17 +21,17 @@ const Home = () => {
                 <div className='flex flex-wrap justify-around w-full gap-4 '>
                     <section className='flex flex-col justify-center items-center w-1/4 gap-5 shadow-black shadow-lg
                      hover:bg-black hover:bg-opacity-10 hover:scale-105'>
-                        <img src="/src/assets/icons8-analysis-50.png" alt="" className='w-14 ' />
+                        <img src={dataIcon} alt="" className='w-14 ' />
                         <p className='xl:text-lg font-bold'>Data <br className='xl:hidden' /> Analytics</p>
                     </section>
                     <section className='flex flex-col justify-center items-center w-1/4 gap-5 shadow-black shadow-lg
                      hover:bg-black hover:bg-opacity-10 hover:scale-105'>
-                        <img src="/src/assets/icons8-machine-learning-64.png" alt="" className='w-14 ' />
+                        <img src={machineIcon} alt="" className='w-14 ' />
                         <p className='xl:text-lg font-bold'>Machine <br className='xl:hidden' /> Learning</p>
                     </section>
                     <section className='flex flex-col justify-center items-center w-1/4 gap-5 shadow-black shadow-lg
                      hover:bg-black hover:bg-opacity-10 hover:scale-105'>
-                        <img src="/src/assets/icons8-web-64.png" alt="" className='w-14 ' />
+                        <img src={webIcon} alt="" className='w-14 ' />
                         <p className='xl:text-lg font-bold'>Web <br className='xl:hidden' /> Development</p>
                     </section>
                 </div>
