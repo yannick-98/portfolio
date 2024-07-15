@@ -1,4 +1,6 @@
 import React from 'react'
+import stars5 from '../assets/5stars.png'
+import stars3 from '../assets/3stars.png'
 
 const About = () => {
     return (
@@ -49,10 +51,10 @@ const About = () => {
                     <div className='mb-12 '>
                         <h3 className=' font-semibold mb-4'>Languages</h3>
                         <ul className='text-lg'>
-                            <li className='flex items-center justify-between gap-2'>· Spanish <img src='/src/assets/5stars.png' className='h-3'></img></li>
-                            <li className='flex items-center justify-between gap-2'>· English <img src='/src/assets/3stars.png' className='h-3'></img></li>
-                            <li className='flex items-center justify-between gap-2'>· French <img src='/src/assets/3stars.png' className='h-3'></img></li>
-                            <li className='flex items-center justify-between gap-2'>· Catalan <img src='/src/assets/5stars.png' className='h-3'></img></li>
+                            <li className='flex items-center justify-between gap-2'>· Spanish <img src={stars5} className='h-3'></img></li>
+                            <li className='flex items-center justify-between gap-2'>· English <img src={stars3} className='h-3'></img></li>
+                            <li className='flex items-center justify-between gap-2'>· French <img src={stars3} className='h-3'></img></li>
+                            <li className='flex items-center justify-between gap-2'>· Catalan <img src={stars5} className='h-3'></img></li>
                         </ul>
                     </div>
                 </div>

@@ -1,4 +1,11 @@
 import React from 'react'
+import pizzaPlot from '../assets/Distribucion_Tipo_Vivienda_Pizza.png'
+import municipiosPlot from '../assets/Distribucion_Top10_Municipios.png'
+import metrosPlot from '../assets/Distribucion_Metros.png'
+import habitacionesPlot from '../assets/Distribucion_Habitaciones.png'
+import garajeAscensorExteriorPlot from '../assets/Distribucion_Garaje_Ascensor_Exterior.png'
+import metrosPrecioPlot from '../assets/Relacion_Metros_Precio.png'
+import heatmap from '../assets/Heatmap.png'
 
 const Info = () => {
     return (
@@ -16,7 +23,7 @@ const Info = () => {
                         ))}
                     </div>
 
-                    <img src='/src/assets/Heatmap.png' alt='Valencia' className='w-full max-w-[800px] mx-auto p-4' />
+                    <img src={heatmap} alt='Heatmap' className='w-full max-w-[800px] mx-auto p-4' />
                 </div>
             </div>
         </div>
@@ -25,28 +32,28 @@ const Info = () => {
 
 const images = [
     {
-        src: '/src/assets/Distribucion_Tipo_Vivienda_Pizza.png',
-        alt: 'tipo'
+        src: pizzaPlot,
+        alt: 'Distribución de tipo de vivienda en Valencia'
     },
     {
-        src: '/src/assets/Distribucion_Top10_Municipios.png',
-        alt: 'Municpios'
+        src: municipiosPlot,
+        alt: 'Distribución de los 10 municipios con más viviendas en Valencia'
     },
     {
-        src: '/src/assets/Distribucion_Metros.png',
-        alt: 'Metros'
+        src: metrosPlot,
+        alt: 'Distribución de los metros cuadrados de las viviendas en Valencia'
     },
     {
-        src: '/src/assets/Distribucion_Habitaciones.png',
-        alt: 'Habitaciones'
+        src: habitacionesPlot,
+        alt: 'Distribución del número de habitaciones en las viviendas en Valencia'
     },
     {
-        src: '/src/assets/Distribucion_Garaje_Ascensor_Exterior.png',
-        alt: 'Garaje, ascensor, exterior'
+        src: garajeAscensorExteriorPlot,
+        alt: 'Distribución de las viviendas con garaje, ascensor y exterior en Valencia'
     },
     {
-        src: '/src/assets/Relacion_Metros_Precio.png',
-        alt: 'Garaje, ascensor, exterior'
+        src: metrosPrecioPlot,
+        alt: 'Relación entre los metros cuadrados y el precio de las viviendas en Valencia'
     }
 ]
 
