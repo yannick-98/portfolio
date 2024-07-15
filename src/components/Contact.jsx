@@ -14,13 +14,13 @@ const Contact = () => {
 
                 <div>
                     <h3 className='text-lg font-thin mb-1'>LinkedIn:</h3>
-                    <a href="https:www.linkedin.com/in/yannick-castaño-david" target="_blank"
+                    <a href="https://www.linkedin.com/in/yannick-castaño-david" target="_blank"
                         className='text-md font-semibold'>Yannick Castaño David</a>
                 </div>
 
                 <div>
                     <h3 className='text-lg font-thin mb-1'>Tableau Public:</h3>
-                    <a href="https://www.linkedin.com/in/yannick-castaño-david" target="_blank"
+                    <a href="https://public.tableau.com/app/profile/yannick.castano/vizzes" target="_blank"
                         className='text-md font-semibold'>Yannick Castaño David</a>
                 </div>
             </div>
