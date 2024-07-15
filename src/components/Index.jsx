@@ -5,7 +5,7 @@ import About from '../components/About'
 import Contact from '../components/Contact'
 import Work from '../components/Work'
 import Map from '../components/Map'
-import backgroundImage from 'C:/Users/USUARIO/Desktop/Programacion/web/projects/YAPP/src/assets/web-3706563_1920.jpg'
+import backgroundImage from '../assets/web-3706563_1920.jpg'
 
 
 const Index = () => {
