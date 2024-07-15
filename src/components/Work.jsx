@@ -63,7 +63,7 @@ const Tarjeta = ({ titulo, imagen, imagenes, enlace, plataforma }) => {
 const tarjetas = [
     {
         titulo: 'House Price Prediction',
-        imagen: '/src/assets/housePrice.JPG',
+        imagen: '../assets/housePrice.JPG',
         imagenes: [],
         plataforma: 'Web',
         enlace: 'http://localhost:5173/house-price-prediction'
