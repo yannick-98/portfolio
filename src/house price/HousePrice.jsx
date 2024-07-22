@@ -30,14 +30,14 @@ const HousePrice = () => {
                             <img src={back} alt="" className='w-6 h-6' />
                         </a>
 
-                        <div className='space-y-1'>
+                        <div className='space-y-1 pb-12'>
                             <h2 className='text-4xl text-white font-bold'>House price prediction</h2>
                             <p className='text-white text-xl'>Predict the price of a house in Valencia</p>
                         </div>
                     </div>
                 </div>
 
-                <div className='w-11/12 h-full max-w-[800px] min-h-[350px] bg-[rgb(65,114,143)] -mt-28  mx-auto 
+                <div className='w-11/12 h-full max-w-[800px] min-h-[350px] bg-[rgb(65,114,143)] -mt-24  mx-auto 
                     rounded-lg border-4 border-white text-start p-3'>
                     <Selectores />
                 </div>
