@@ -7,7 +7,6 @@ import Work from '../components/Work'
 import Map from '../components/Map'
 import backgroundImage from '../assets/web-3706563_1920.jpg'
 
-
 const Index = () => {
     const divStyle = {
         backgroundImage: `url(${backgroundImage})`,

@@ -3,7 +3,6 @@ import valencia from '../assets/valencia.webp'
 import back from '../assets/icons8-return-48.png'
 import Selectores from './Selectores'
 import pexels from '../assets/pexels-bg.jpg'
-import Chart from './Chart'
 import Info from './Info'
 
 const HousePrice = () => {
@@ -25,7 +24,7 @@ const HousePrice = () => {
     return (
         <>
             <div className='min-h-screen h-full w-full scroll-smooth pb-4 flex flex-col ' style={divStyle}>
-                <div style={{ backgroundImage: `url(${valencia})` }} className='bg-cover bg-center bg-no-repeat w-full h-[500px]'>
+                <div style={{ backgroundImage: `url(${valencia})` }} className='bg-cover bg-center bg-no-repeat w-full h-[50vh]'>
                     <div className='w-full h-full bg-[rgb(01,50,78)] bg-opacity-70 flex flex-col justify-center items-center text-center'>
                         <a href='/' className='block absolute top-2 left-2 '>
                             <img src={back} alt="" className='w-6 h-6' />

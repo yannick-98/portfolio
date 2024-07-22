@@ -1,0 +1,37 @@
+
+.slider-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .slide {
+    position: relative;
+  }
+  
+  .slide-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    max-height: 400px;
+    border-radius: 10px;
+    margin: auto;
+  }
+  
+  .slide-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  .slide-title {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .slide-description {
+    font-size: 1.2em;
+  }
+  

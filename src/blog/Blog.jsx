@@ -17,9 +17,25 @@ const Blog = () => {
                 <div className='flex flex-wrap w-full text-center'>
                     <PostsList />
                 </div>
+
             </div>
         </div>
     )
 }
 
 export default Blog
+
+/*
+Descripción: Un blog donde el usuario puede publicar artículos, y los visitantes pueden leerlos y dejar comentarios.
+
+Funcionalidades:
+Gestión de cuentas de usuario (registro, inicio de sesión, roles de administrador y usuario regular).
+Creación, edición y eliminación de publicaciones.
+Sistema de comentarios para cada publicación.
+Paginación y búsqueda de artículos.
+
+Tecnologías:
+Frontend: HTML, CSS, JavaScript.
+Backend: Ruby on Rails o PHP con Laravel.
+Base de datos: MySQL o PostgreSQL.
+*/
