@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Home from '../components/Home'
 import Nav from '../components/Nav'
 import About from '../components/About'
@@ -17,9 +17,31 @@ const Index = () => {
         fontFamily: 'Ubuntu'
     };
 
+    const [showNav, setShowNav] = useState(true)
+    const [lastScrollY, setLastScrollY] = useState(0)
+
+    const handleScroll = () => {
+        if (window.scrollY > lastScrollY) {
+            // Scroll hacia abajo
+            setShowNav(false);
+        } else {
+            // Scroll hacia arriba
+            setShowNav(true);
+        }
+        setLastScrollY(window.scrollY);
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [lastScrollY]);
+
     return (
         <div className='w-full text-white scroll-smooth ' style={divStyle} >
-            <Nav />
+            {showNav && <Nav />}
             <div className='w-full flex flex-col items-center'>
                 <Home />
                 <Work />
